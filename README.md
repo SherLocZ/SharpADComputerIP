@@ -6,7 +6,7 @@
 
 ```
 C:\Users\testuser\Desktop>SharpADComputerIP.exe
-CurrentDomain   hacke.testlab
+CurrentDomain   sher10ck.local
 ==================================
 Name                  IP
 DC              192.168.43.100
@@ -14,3 +14,15 @@ TEST08          192.168.43.110
 ...
 ```
 
+Cobalt Strike
+```
+beacon> execute-assembly e:\SharpADComputerIP.exe
+[*] Tasked beacon to run .NET program: SharpADComputerIP.exe
+[+] host called home, sent: 112683 bytes
+[+] received output:
+CurrentDomain	sher10ck.local
+==================================
+Name                  IP
+DC		192.168.75.152
+TEST08		192.168.43.110
+```
