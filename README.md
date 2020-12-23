@@ -6,10 +6,11 @@
 
 ```
 C:\Users\testuser\Desktop>SharpADComputerIP.exe
-CurrentDomain   sher10ck.local
+CurrentDomain   hacke.testlab
 ==================================
 Name                  IP
 DC              192.168.43.100
 TEST08          192.168.43.110
 ...
 ```
+
